@@ -6,6 +6,7 @@
 -- Create a database name Netflix project---
 
 --Create Table name netflix
+```sql
 create table netflix
  (
  show_id varchar(20),
@@ -21,7 +22,7 @@ create table netflix
  listed_in varchar(100),
  description varchar(250)
  );
-
+```
 --Importing data in the table from csv file
 select * from netflix;
 
