@@ -1,11 +1,10 @@
 # Netflix Movies and TV Shows data analysis using SQL
 
 ![Netflix Logo](https://github.com/TamannaJaglan/Netflix_SQL_Project/blob/main/Netflix%20logo%20(1).jfif)
-## Objective
+## Overview
+This project involves a comprehensive analysis of Netfli's monies and TV shows data using SQL. Te goal is to extract valuable insights and answer various business questions based on their dataset. Te following README provides a detailed account of the project's objectives, business problems, solutions, findings, and conclutions.
 
--- Create a database name Netflix project---
-
---Create Table name netflix
+##Schema
 ```sql
 create table netflix
  (
@@ -23,26 +22,8 @@ create table netflix
  description varchar(250)
  );
 ```
---Importing data in the table from csv file
 
- drop table netflix;
- ```sql
-C:\Users\LENOVO\Downloads\netflix_sql_project-main\netflix_sql_project-main.csv
-COPY netflix
-FROM 'C:\Users\LENOVO\Downloads\netflix_sql\netflix_sql_project-main\netflix_titles.csv'
-DELIMITER ','
-CSV HEADER
-```
-
-```sql
-select * from netflix;
-```
-
-```sql
-select count(*) as total_content from netflix;
-```
-
--- 15 Business Problems & Solutions --
+15 Business Problems & Solutions
 
 -- 1. Count the number of Movies vs TV Shows
 
