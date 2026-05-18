@@ -2,6 +2,7 @@
 
 ![Netflix Logo](https://github.com/TamannaJaglan/Netflix_SQL_Project/blob/main/Netflix%20logo%20(1).jfif)
 ## Objective
+
 -- Create a database name Netflix project---
 
 --Create Table name netflix
